@@ -16,6 +16,7 @@
 		C39A8C702A3586F300F9E9D0 /* Egg_TimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39A8C6F2A3586F300F9E9D0 /* Egg_TimerTests.swift */; };
 		C39A8C7A2A3586F300F9E9D0 /* Egg_TimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39A8C792A3586F300F9E9D0 /* Egg_TimerUITests.swift */; };
 		C39A8C7C2A3586F300F9E9D0 /* Egg_TimerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39A8C7B2A3586F300F9E9D0 /* Egg_TimerUITestsLaunchTests.swift */; };
+		C3CAAC332A35CA9A00A86559 /* F.wav in Resources */ = {isa = PBXBuildFile; fileRef = C3CAAC322A35CA9A00A86559 /* F.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		C39A8C752A3586F300F9E9D0 /* Egg TimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Egg TimerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C39A8C792A3586F300F9E9D0 /* Egg_TimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Egg_TimerUITests.swift; sourceTree = "<group>"; };
 		C39A8C7B2A3586F300F9E9D0 /* Egg_TimerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Egg_TimerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C3CAAC322A35CA9A00A86559 /* F.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = F.wav; path = ../../../../../Downloads/F.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		C39A8C572A3586F000F9E9D0 /* Egg Timer */ = {
 			isa = PBXGroup;
 			children = (
+				C3CAAC312A35CA6100A86559 /* Sounds */,
 				C39A8C582A3586F000F9E9D0 /* AppDelegate.swift */,
 				C39A8C5A2A3586F000F9E9D0 /* SceneDelegate.swift */,
 				C39A8C5C2A3586F000F9E9D0 /* ViewController.swift */,
@@ -125,6 +128,14 @@
 				C39A8C7B2A3586F300F9E9D0 /* Egg_TimerUITestsLaunchTests.swift */,
 			);
 			path = "Egg TimerUITests";
+			sourceTree = "<group>";
+		};
+		C3CAAC312A35CA6100A86559 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				C3CAAC322A35CA9A00A86559 /* F.wav */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +245,7 @@
 				C39A8C652A3586F200F9E9D0 /* LaunchScreen.storyboard in Resources */,
 				C39A8C622A3586F200F9E9D0 /* Assets.xcassets in Resources */,
 				C39A8C602A3586F000F9E9D0 /* Main.storyboard in Resources */,
+				C3CAAC332A35CA9A00A86559 /* F.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
